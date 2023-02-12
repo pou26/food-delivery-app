@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(228, 247, 250);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.menu{
+  background-image:linear-gradient(-90deg,#12c6d3,#2a0af6)
+}
+
+/* #carousel{
+  height:50vh;
+  object-fit:cover;
+  object-position:center;
+  overflow:hidden;
+} */
+
+#carousel{
+  max-height:500px;
 }
