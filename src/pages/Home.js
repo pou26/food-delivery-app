@@ -11,29 +11,6 @@ export default function Home() {
             <div><Carousel /></div>
             <div><subMenu /></div>
             <div className="row mt-4">
-
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
                 <Card />
                 <Card />
             </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {  Link } from 'react-router-dom'
+import {  Link, redirect } from 'react-router-dom'
 import axios from "axios";
 import {toast ,ToastContainer} from  "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
@@ -23,7 +23,8 @@ export default function Signup() {
                  if(res.status === 201)
                  toast.success("Registred successfully !",{
                    position: "top-right"
-                 });
+                 })
+                 redirect("/login")
                })
                .catch((err)=>{
                  console.log(err)
@@ -52,7 +53,7 @@ export default function Signup() {
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-            <input type="password" className="form-control" name="password" value={credentials.password} onChange={onChange} />
+            <input type="text" className="form-control" name="password" value={credentials.password} onChange={onChange} />
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputAddress" className="form-label">Address</label>
