@@ -23,7 +23,8 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<Signup />} />
-          <Route exact path="/admin/login" element={<AdminLogin />} />
+          <Route exact path="npm run start
+          " element={<AdminLogin />} />
           <Route exact path="/admin/dashboard" element={<Dashboard />} />
           <Route exact path="/admin/addProduct" element={<AddProduct />} />
         </Routes>
