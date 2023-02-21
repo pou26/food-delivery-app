@@ -41,9 +41,29 @@
 
 import React from 'react'
 import { ChevronRightRounded } from "@mui/icons-material";
+// import { Link, useNavigate } from 'react-router-dom'
+// import { toast, ToastContainer } from 'react-toastify';
+// import axios from 'axios';
 
 export default function Card({ imgSrc, name }) {
+  // const[foodCategory,setFoodCategory]=useState([]);
+  // const redirect = useNavigate()
+  // if (name === "")
+  // toast.warning("name is requires !")
+  // else {
+  //   axios.post("http://localhost:3001/admin/addProduct", foodCategory)
+  //     .then((res) => {
+  //       if (res.status === 200) {
+  //         toast.success("created successfully !", {
+  //           position: "top-right"
+  //         })
+  //         redirect("/")
+  //       }
+  //       const onChange = (e) => {
+  //         setFoodCategory({ ...foodCategory, [e.target.name]: e.target.value })
+  //       }
   return (
+    
     <div classname="wrapper"> 
       <section>
         <div className="rowMenuCard">

@@ -10,6 +10,9 @@ router.post("/signup", userController.createUser)
 router.post("/login", userController.loginUser)
 
 router.post("/admin/login", loginproduct)
+
+
+//------------------foods---------------------//
 router.post("/admin/addProduct", createproduct)
 router.post("/admin/updateProduct", authentication, updateproduct)
 

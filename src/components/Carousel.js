@@ -18,13 +18,13 @@ export default function carousel() {
                         </form>
                     </div>
                     <div className="carousel-item active">
-                        <img src="https://source.unsplash.com/random/900×700/?burger" className="d-block w-100" style={{ filter: "brightness(80%)" }} alt="..." />
+                        <img src="..\image\noodles2.jpg" className="d-block w-100" style={{ filter: "brightness(80%)" }} alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900×700/?pizza" className="d-block w-100" style={{ filter: "brightness(80%)" }} alt="..." />
+                        <img src="..\image\pizza1.jpg" className="d-block w-100" style={{ filter: "brightness(80%)" }} alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900×700/?coffee" className="d-block w-100" style={{ filter: "brightness(80%)" }} alt="..." />
+                        <img src="..\image\coffee3.jpg" className="d-block w-100" style={{ filter: "brightness(80%)" }} alt="..." />
                     </div>
                 </div >
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

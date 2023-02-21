@@ -49,7 +49,7 @@ export default function Login() {
             <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
             <input type="password" className="form-control" name="password" value={credentials.password} onChange={onChange} />
           </div>
-          <Link to="/signup" className="m-3 text text-danger">New user?Create your account</Link><br />
+          <Link to="/signup" className="textlink text text-danger">New user?Create your account</Link><br />
           <button type="submit" className="m-3 btn btn-primary" onClick={handleSubmit}>Submit</button>
         </form>
         <ToastContainer />

@@ -53,12 +53,12 @@ export default function Signup() {
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-            <input type="text" className="form-control" name="password" value={credentials.password} onChange={onChange} />
+            <input type="password" className="form-control" name="password" value={credentials.password} onChange={onChange} />
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputAddress" className="form-label">Address</label>
             <input type="text" className="form-control" name="geolocation" value={credentials.geolocation} onChange={onChange} /><br />
-            <Link to="/login" className="m-3 text text-danger">Already a user?</Link>
+            <Link to="/login" className="textlink text text-danger">Already a user?</Link>
           </div>
           <button type="submit" className="m-3 btn btn-primary">Submit</button>
         </form>

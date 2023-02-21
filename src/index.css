@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(228, 247, 250);
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVPg_Gt5m3XEWfgdfOhOipuGmbyJjr7TA3XIET1MUKQd7wAJvZvLQyFpJrjMNRcop1xE&usqp=CAU");  */
+   /* background-repeat: no-repeat;  */
 
 }
 
@@ -13,9 +15,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.menu{
-  background-image:linear-gradient(-90deg,#12c6d3,#2a0af6)
-}
+/* .menu{
+  background-image:linear-gradient(-90deg,#05cddf,#a4ecf6)
+} */
 
 /* #carousel{
   height:50vh;
@@ -27,3 +29,13 @@ code {
 #carousel{
   max-height:500px;
 }
+
+
+/* .container{
+  background-color: #a4f0f6;
+  padding: 100px;
+  width: 650px;
+  margin-top: 100px;
+  border-radius: 15px;
+  box-shadow:5px 15px 20px rgba(0,0,0,0.15);
+} */

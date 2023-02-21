@@ -44,7 +44,7 @@
 // }
 import { AddRounded, Favorite, StarRounded } from "@mui/icons-material";
 import React, { useState } from "react";
-import {Rate} from "antd";
+
 // import { actionType } from "./reducer";
 // import { useStateValue } from "./StateProvider";
 // import { Items } from "./Data";

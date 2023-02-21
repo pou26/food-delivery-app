@@ -7,7 +7,9 @@ const createUser = async function (req, res) {
 
   try {
 
-    const findEmail = await userModel.findOne({ email: req.body.email });
+    let {email,password} = req.body
+
+    const findEmail = await userModel.findOne({ email: email });
     if (findEmail) {
       return res.status(400).send({ message: "User with this email Id alredy exists." })
     }
@@ -51,6 +53,3 @@ const loginUser = async (req, res) => {
 
 
 module.exports = { createUser, loginUser }
-
-
-

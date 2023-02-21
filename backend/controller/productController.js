@@ -29,7 +29,7 @@ module.exports = {
     },
     createproduct: async (req, res) => {
         await productModel.create(req.body)
-        res.status(201).send("Product created successfully !")
+        res.status(201).send([global.products,global.foodCategory])
     },
     updateproduct: async (req, res) => {
 
